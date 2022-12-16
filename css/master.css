@@ -1,0 +1,234 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+
+    background-color: #fff9dca4;
+}
+
+.img {
+    width: 150px;
+    height: 270px;
+}
+
+html {
+    /* لو الموقع عربي  */
+    /* direction: rtl; */
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav {
+    padding: 5px;
+    background: #555;
+}
+
+nav .logo,
+nav ul {
+    display: inline-block;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    padding: 10px;
+    margin-top: 15px;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(126, 107, 255);
+}
+
+.header {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.title a {
+    text-decoration: none;
+    color: rgb(126, 107, 255);
+    list-style: none;
+}
+
+.box {
+    width: 340px;
+    border: 1px solid gray;
+    float: left;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    height: max-content;
+}
+
+.box a {
+    text-decoration: none;
+    background-color: #000;
+    color: white;
+    padding: 7px;
+    display: block;
+
+}
+
+.box a:hover {
+    background-color: #555;
+}
+
+
+
+
+/* start of book details  */
+
+.book {
+    border: 2px solid gray;
+    padding: 15px;
+    margin: 15px;
+    height: 300px;
+    box-shadow: 1px 1px 6px;
+
+}
+
+.details,
+.img {
+    display: inline-block;
+}
+
+.details {
+    width: 80%;
+    float: left;
+}
+
+
+.book div .img {
+    width: 150px;
+}
+
+.details h2 {
+    padding: 10px;
+}
+
+.author {
+    color: blue;
+    font-weight: 700;
+
+}
+
+.details p {
+    margin: 7px;
+}
+
+.price {
+    color: red;
+    font-weight: bold;
+}
+
+
+.download2 {
+    background: rgb(10, 32, 227);
+    color: #fff;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    border-radius: 7px;
+    margin-top: 15px;
+
+}
+
+.download:hover {
+    background: rgb(126, 107, 255);
+}
+
+
+/* end of book details  */
+
+
+
+/* start of footer  */
+
+footer {
+    clear: both;
+    background: #555;
+    padding: 35px;
+}
+
+.footerTitle {
+    text-decoration: none;
+    list-style: none;
+}
+
+.logo img {
+    width: 70px;
+}
+
+footer {
+    text-align: center;
+}
+
+/* end of footer  */
+
+
+/* Contact Us  */
+
+.contacttitle {
+    text-align: center;
+}
+
+.myform {
+    border: 2px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.myform form {
+    background: rgba(105, 101, 101, 0.489);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.myform input {
+    width: 50%;
+    height: 30px;
+    text-align: center;
+    margin: 5px;
+    border: 1px solid #fff;
+    border-radius: 7px;
+}
+
+label {
+    display: block;
+}
+
+.myform textarea {
+    width: 75%;
+    height: 200px;
+    border: 0;
+    resize: none;
+}
+
+input[type="submit"] {
+    background: #555;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: rgb(187, 182, 182);
+}
